@@ -1,5 +1,5 @@
 def count_elements(array)
-  new_hash = []
+  counts = Hash.new(0)
   
   array.each do |element|
     
