@@ -1,6 +1,6 @@
 def count_elements(array)
-  counts = Hash.new(0)
-  array.each { |name| counts[name] += 1 }
-  counts
+  new_hash = Hash.new(0)
+  array.each { |name| new_hash[name] += 1 }
+  new_hash
 end
  
